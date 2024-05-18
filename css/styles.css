@@ -14,14 +14,14 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 }
-.style-h2{
+.style-h-two{
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
+letter-spacing: 0.02em ;
 }
 .paragraf{
     line-height: 1.5;
@@ -33,6 +33,7 @@ color: #2e2f42;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    letter-spacing: 0.02em ;
 }
 .card-box-style{
 background: #fff;
@@ -90,11 +91,14 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 text-decoration: none;
 }
-.navigation:hover,
-.navigation:focus{
+.navigation a:hover,
+.navigation a:focus{
     color: #404bbf;
 }
-.contacts a{
+.contacts{
+    font-style: normal;
+}
+.contacts .contacts-link{
     letter-spacing: 0.02em ;   
 font-size: 16px;
 line-height: 1.5;
@@ -104,8 +108,8 @@ font-family: "Roboto", sans-serif;
 font-style: normal;
 
 }
-.contacts:hover,
-.contacts:focus{
+.contacts-link:hover,
+.contacts-link:focus{
     color: #404bbf;
 }
 .ourteam-section{
@@ -117,6 +121,13 @@ font-style: normal;
 }
 .section-one-style{
     background: #2e2f42;
+    }
+    .text{
+        font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
     }
 .footer-style .text{
     font-weight: 400;
