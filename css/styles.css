@@ -1,0 +1,104 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background: #fff;
+}
+ul, ol {
+	list-style-type: none;
+}
+.general-tittle{
+    font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+text-align: center;
+color: #fff;
+}
+.stlyeh2{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+text-align: center;
+color: #2e2f42;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+.card-box-style{
+background: #fff;
+}
+.card-title{
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+color: #2e2f42;
+}
+.card-text{
+    text-align: center;
+}
+
+.buttonstyle{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #fff;
+background-color:#4d5ae5;
+cursor:pointer;
+
+}
+.webstudio{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+text-transform: uppercase;
+color: #2e2f42;
+text-decoration: none;
+}
+.webstudio .span-style{
+color: #4d5ae5;
+}
+.webstudio .footer-studio{
+    color: #f4f4fd;
+}
+
+.navigation{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #2e2f42;
+text-decoration: none;
+}
+.contacts{
+    
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+text-decoration: none;
+font-family: "Roboto", sans-serif;
+font-style: normal;
+}
+.ourteam-section{
+    background: #f4f4fd;
+}
+.footer-style{
+   
+    background: #2e2f42;
+}
+.section1-style{
+    background: #2e2f42;
+    }
+.footer-style .text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #f4f4fd;
+}
+
+
+
+
