@@ -82,7 +82,7 @@ text-decoration: none;
     color: #f4f4fd;
 }
 
-.navigation{
+.navigation a{
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -94,7 +94,7 @@ text-decoration: none;
 .navigation:focus{
     color: #404bbf;
 }
-.link{
+.contacts a{
     letter-spacing: 0.02em ;   
 font-size: 16px;
 line-height: 1.5;
@@ -102,6 +102,7 @@ color: #434455;
 text-decoration: none;
 font-family: "Roboto", sans-serif;
 font-style: normal;
+
 }
 .contacts:hover,
 .contacts:focus{
