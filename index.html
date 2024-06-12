@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header class="header-style">
+    <header class="header">
         
-
-	<nav>
+      <div class="container header-container">
+	<nav class="flex-logo-and-menu">
         <a href="./index.html" class="webstudio">Web<span class="span-style">Studio</span></a>
 		<ul class="navigation">
 		  <li  ><a class="navigation" href="./index.html" >Studio</a></li>
@@ -27,8 +27,8 @@
 		  <li ><a class="navigation"  href=""  >Contacts</a></li>
 		</ul>
     </nav>
-    <address class="contacts">
-        <ul>
+    <address >
+        <ul class="contacts">
             <li><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a></li>
             <li><a href="tel:+110001111111" class="contacts-link" >+11 (000) 111-11-11</a></li>
         </ul>
@@ -36,22 +36,24 @@
 
        
     </address>
-
+    </div>
     </header>
     <main>
 
-    
-    <section class="section-one-style"><h1 class="general-tittle">Effective Solutions
+        
+    <section class="section-one-style"><div class="container"><h1 class="general-tittle">Effective Solutions
         for Your Business</h1>
         <button type="button" class="buttonstyle">Order Service</button>
-
+    </div>
     </section>
+        </div>
 
 
 
         <section>
-            <h2 class="style-h-two">Strategy</h2>
-            <ul>
+            <div class="container strategy-container">
+            <div class="invisible-header"><h2 class="style-h-two">Strategy</h2></div>
+            <ul class="section-two-container">
                 <li>
                     <h3 class="title">Strategy</h3>
                     <p class="paragraf">Our goal is to identify the business
@@ -70,66 +72,76 @@
                     <p class="paragraf">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
+        </div>
         </section>
         <section class="ourteam-section">
-            <h2 class="style-h-two">Our Team</h2>
-            <ul>
+            <div class="container ourteam-container">
+            <h2 class="style-h-two ourteam-title">Our Team</h2>
+            <ul class="section-three-container">
                 <li class="card-box-style">
-                    <img src="./images/img-3.jpg" alt="Mark Guerrero" width="360" />
+                    <img src="./images/img-3.jpg" alt="Mark Guerrero" width="264" />
                     <h3 class="card-title" >Mark Guerrero</h3>
                     <p class="card-text">Product Designer</p>
                 </li>
-                <li class="card-box-style"> <img src="./images/img-2.jpg" alt="Tom Ford" width="360"/> 
+                <li class="card-box-style"> <img src="./images/img-2.jpg" alt="Tom Ford" width="264"/> 
                     <h3 class="card-title">Tom Ford</h3>
                     <p class="card-text">Frontend Developer</p>
                 </li>
-                <li class="card-box-style"><img src="./images/img-1.jpg" alt="Camila Garcia" width="360"/> 
+                <li class="card-box-style"><img src="./images/img-1.jpg" alt="Camila Garcia" width="264"/> 
                      <h3 class="card-title">Camila Garcia</h3>
                     <p class="card-text">Marketing</p>
                 </li>
-                <li class="card-box-style"> <img src="./images/img.jpg" alt="Daniel Wilson" width="360"/> 
+                <li class="card-box-style"> <img src="./images/img.jpg" alt="Daniel Wilson" width="264"/> 
                     <h3 class="card-title">Daniel Wilson</h3>
                     <p class="card-text">UI Designer</p>
                 </li>
             </ul>
-
+            </div>
         </section>
-        <section>  
-        
-            <h2 class="style-h-two">Our Portfolio</h2>
-            <ul>
+        <section class="our-portfolio">  
+            <div class="container">
+            <h2 class="style-h-two our-portfolio-title">Our Portfolio</h2>
+            <ul class="our-portfolio-list">
                 <li><img src="./images/img1.jpg" alt="Banking App" width="360"/>
-                    <h3 class="title">Banking App</h3>
-                    <p class="text">App</p>
+                    <div class="box-in-our-portfolio"><h3 class="title">Banking App</h3>
+                        <p class="text">App</p>
+                    </div>
                 </li>
                 <li><img src="./images/img2.jpg" alt="Cashless Payment" width="360"/>
-                    <h3 class="title">Cashless Payment</h3>
+                    <div class="box-in-our-portfolio"> <h3 class="title">Cashless Payment</h3>
                     <p class="text">Marketing</p>
+                    </div>
                 </li>
                 <li><img src="./images/img3.jpg" alt="Meditation App" width="360"/>
-                    <h3 class="title">Meditation App</h3>
+                    <div class="box-in-our-portfolio"><h3 class="title">Meditation App</h3>
                     <p class="text">App</p>
+                    </div>
                 </li>
                 <li><img src="./images/img4.jpg" alt="Taxi Service" width="360"/>
-                    <h3 class="title">Taxi Service</h3>
+                    <div class="box-in-our-portfolio"><h3 class="title">Taxi Service</h3>
                     <p class="text">Marketing</p>
+                    </div>
                 </li>
                 <li><img src="./images/img5.jpg" alt="Screen Illustrations" width="360"/>
-                    <h3 class="title">Screen Illustrations</h3>
+                    <div class="box-in-our-portfolio"><h3 class="title">Screen Illustrations</h3>
                     <p class="text">Design</p>
+                    </div>
                 </li>
                 <li><img src="./images/img6.jpg" alt="Online Courses" width="360"/>
-                    <h3 class="title">Online Courses</h3>
+                    <div class="box-in-our-portfolio"><h3 class="title">Online Courses</h3>
                     <p class="text">Marketing</p>
+                    </div>
                 </li>
             </ul>
-            
+            </div>   
         </section>
 
 </main>
 <footer class="footer-style">
-    <a href="./index.html" class="webstudio">Web<span class="footer-studio">Studio</span></a>
-    <p class="text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    <div class="container">
+    <div class="webstudio-footer"><a href="./index.html" class="webstudio">Web<span class="footer-studio">Studio</span></a></div>
+    <p class="text text-footer">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    </div>
 </footer>
 </body>
 </html>

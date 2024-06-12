@@ -2,17 +2,32 @@ body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #fff;
+    
 }
 ul, ol {
 	list-style-type: none;
+   padding: 0;
+   margin: 0;
 }
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+p{
+    margin:0;
+}
+img{
+    display: block;
+}
+
 .general-tittle{
     font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: #fff;
+color: #fff; 
+
 }
 .style-h-two{
     font-weight: 700;
@@ -22,6 +37,7 @@ text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
 letter-spacing: 0.02em ;
+
 }
 .paragraf{
     line-height: 1.5;
@@ -34,9 +50,12 @@ letter-spacing: 0.02em ;
     line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em ;
+    margin-bottom: 8px;
 }
-.card-box-style{
+.card-box-style {
 background: #fff;
+border-radius: 0 0 4px 4px;
+
 }
 .card-title{
     font-weight: 500;
@@ -45,11 +64,16 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
+margin-top: 32px;
+
 }
 .card-text{
     text-align: center;
     letter-spacing: 0.02em;
     line-height: 1.5 ;
+    margin-bottom: 32px;;
+
 }
 
 .buttonstyle{
@@ -60,6 +84,10 @@ letter-spacing: 0.04em;
 color: #fff;
 background-color:#4d5ae5;
 cursor:pointer;
+border-radius: 4px;
+padding: 16px 32px;
+border: none;
+
 
 }
 .buttonstyle:hover,
@@ -75,6 +103,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 text-decoration: none;
+margin-right: 76px;
 }
 .webstudio .span-style{
     color: #2e2f42;
@@ -97,6 +126,9 @@ text-decoration: none;
 }
 .contacts{
     font-style: normal;
+    display: flex;
+    gap: 40px;
+    
 }
 .contacts .contacts-link{
     letter-spacing: 0.02em ;   
@@ -118,9 +150,15 @@ font-style: normal;
 .footer-style{
    
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
 }
 .section-one-style{
     background: #2e2f42;
+    width: 1440px;
+    height: 600px;
+    display: block;
     }
     .text{
         font-weight: 400;
@@ -129,14 +167,108 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
     }
+    
+    
+    
+
 .footer-style .text{
     font-weight: 400;
 font-size: 16px;
 letter-spacing: 0.02em ;
 line-height: 1.5;
 color: #f4f4fd;
+
+}
+/*Flex */
+.navigation{
+    display: flex;
+    gap: 40px;
+    
+}
+.flex-logo-and-menu{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+   
+}
+.container{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+    
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+}
+.header{
+    border-bottom: 1px solid #E7E9FC;
 }
 
 
 
+/*Section two */
+.strategy-container{
+margin-top: 127px;
+margin-bottom: 120px;
+}
+.invisible-header{
+    display: none;
+}
+.section-two-container{
+    display: flex;
+    gap: 24px;
+}
 
+
+
+/*Section three */
+.section-three-container{
+    display: flex;
+    gap: 24px;
+}
+.ourteam-title{
+   margin-bottom: 32px;
+}
+.ourteam-container{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 72px;
+padding: 120px 156px;
+}
+
+/*Section four*/
+
+.our-portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.our-portfolio-title{
+    margin-bottom: 72px;
+}
+.box-in-our-portfolio{
+    border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+padding: 32px 16px;
+width: 360px;
+height: 120px;
+}
+.our-portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.webstudio-footer{
+    margin-bottom: 16px;
+
+}
+.text-footer{
+    max-width: 264px;
+margin-top: 0;
+}
