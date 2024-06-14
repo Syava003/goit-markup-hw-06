@@ -210,16 +210,20 @@ color: #f4f4fd;
 .header-container{
     display: flex;
     align-items: center;
+    padding: 0 15px;
+}
+.header-link{
     padding: 24px 0;
 }
 .header{
     border-bottom: 1px solid #E7E9FC;
+   
 }
 
 
 
 /*Section two */
-.strategy-container{
+.section-two-style{
     padding: 120px 0;
 }
 .visually-hidden {
@@ -286,6 +290,7 @@ height: 120px;
     gap: 48px 24px;
 }
 
+/* footer*/
 .webstudio-footer{
     display: inline-block;
     margin-bottom: 16px;
@@ -295,3 +300,4 @@ height: 120px;
     max-width: 264px;
 margin-top: 0;
 }
+/*ДОРОБИТИ ФУТЕР*/
