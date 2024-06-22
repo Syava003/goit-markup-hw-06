@@ -356,8 +356,8 @@
     <form class="footer-form">
     
     
-    <label for="email" aria-label="footer-email"></label>
-    <input class="footer-input" type="email" name="email" id="emal" placeholder="E-mail"/>
+    <label for="email" aria-label="footer-email" class="footer-label">
+    <input class="footer-input" type="email" name="email" id="email" placeholder="E-mail"/></label>
     <button type="submit" class="footer-button">Subscribe 
         <span>
             <svg class="footer-icon" width="24" height="24">
@@ -380,24 +380,28 @@
 
         <p class="modal-title">Leave your contacts and we will call you back</p>
     <form class="modal-form">
-
-        <label class="modal-label" for="user-name">Name</label>
+        <div class="form-field">
+            <label class="modal-label" for="user-name">Name</label>
           <div class="modal-wrap">
             <input class="modal-input" name="user-name" type="text" id="user-name" placeholder/>
         <svg class="modal-icons">  <use href="./images/icons.svg#icon-person-black-18dp-1"> </use></svg>
           </div>
-
-        <label class="modal-label" for="user-tel">Phone</label>
+        </div>
+        
+        <div class="form-field">
+            <label class="modal-label" for="user-tel">Phone</label>
             <div class="modal-wrap">
             <input class="modal-input" name="user-tel" type="tel" id="user-tel" />
         <svg class="modal-icons"> <use href="./images/icons.svg#icon-phone-black-18dp-1"> </use></svg>
             </div>
-        
-        <label class="modal-label" for="user-email">Email</label>
+        </div>
+        <div class="form-field">
+            <label class="modal-label" for="user-email">Email</label>
             <div class="modal-wrap">
             <input class="modal-input" name="user-email" type="email" id="user-email" />
         <svg class="modal-icons"> <use href="./images/icons.svg#icon-email-black-18dp-1"> </use></svg>
             </div>
+        </div>
 
             <label class="modal-label" for="modal-area">Comment</label>
             <textarea name="user-comment" id="modal-area" class="modal-text" placeholder="Text input"></textarea>
