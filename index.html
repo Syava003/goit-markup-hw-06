@@ -358,19 +358,17 @@
     
     <label for="email" aria-label="footer-email" class="footer-label">
     <input class="footer-input" type="email" name="email" id="email" placeholder="E-mail"/></label>
-    <button type="submit" class="footer-button">Subscribe 
-        <span>
+    <button type="submit" class="footer-button">Subscribe
             <svg class="footer-icon" width="24" height="24">
         <use href="./images/icons.svg#Telegram"></use>
     </svg>
-</span>
 </button>
     
     </form>
    </div>
 </div>
 </footer>
-<div class="backdrop is-open">
+<div class="backdrop ">
     <div class="modal">
         <button type="button" class="modal-close-bth">
             <svg class="style-close" width="8" height="8">
@@ -387,7 +385,7 @@
         <svg class="modal-icons" width="18" height="24">  <use href="./images/icons.svg#icon-person-black-18dp-1"> </use></svg>
           </div>
         </div>
-        
+
         <div class="form-field">
             <label class="modal-label" for="user-tel">Phone</label>
             <div class="modal-wrap">
@@ -404,12 +402,13 @@
         </div>
 
             <div class="fiel-comment">
-                <label class="modal-label" for="modal-area">Comment</label>
-                <textarea name="user-comment" id="modal-area" class="modal-text" placeholder="Text input"></textarea>
+                <label class="modal-label" for="user-comment">Comment</label>
+                <textarea name="user-comment" id="user-comment" class="modal-text" placeholder="Text input"></textarea>
             </div>
 
-           <div><input type="checkbox" id="privacy" name="privacy" value="true" class="modal-check visually-hidden">
-            <label for="privacy" class="modal-check-text"><span>
+           <div class="field-checkbox"><input type="checkbox" id="user-privacy" name="user-privacy" value="true" class="modal-check visually-hidden">
+            <label for="user-privacy" class="modal-check-text">
+                <span class="modal-check-box">
                 <svg class="check-icon" width="10" height="8">
                     <use href="./images/icons.svg#icon-Vector-1"></use>
                 </svg></span>I accept the terms and conditions of the 
