@@ -36,6 +36,58 @@
 
        
     </address>
+    <button type="button" class="menu-open-bth"><svg class="burger" width="24" height="24"><use href="./images/icons.svg#burger"></use></svg></button>
+    </div>
+    <div class="mob-menu">
+       <div> <button type="button" class="menu-close-bth">
+        <svg class="mob-style-close" width="8" height="8">
+        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+        </svg>
+    </button>
+        <nav><ul class="mob-menu-list">
+            <li class="mob-menu-item " ><a class="mob-menu-link mob-studio current" href="./index.html" >Studio</a></li>
+            <li clas="mob-menu-item"><a class="mob-menu-link" href=""  >Portfolio</a></li>
+            <li clas="mob-menu-item"><a class="mob-menu-link"  href=""  >Contacts</a></li>
+          </ul>
+        </nav>
+       </div>
+        <ul class="mob-contacts">
+            <li><a href="tel:+110001111111" class="mob-contacts-link" >+11 (000) 111-11-11</a></li>
+            <li><a href="mailto:info@devstudio.com" class="mob-contacts-link mob-email">info@devstudio.com</a></li>
+            
+        </ul>
+
+        <ul class="mob-social-list">
+            <li class="icon-items">
+                <a href="" class="blue-circle" >
+                    <svg class="icons-socails" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="icon-items">
+                <a href="" class="blue-circle"  >
+                    <svg class="icons-socails"  width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="icon-items">
+                <a href="" class="blue-circle">
+                    <svg class="icons-socails"  width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="icon-items">
+                <a href="" class="blue-circle">
+                    <svg class="icons-socails"  width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    
     </div>
     </header>
     <main>
@@ -96,11 +148,14 @@
             </ul>
         </div>
         </section>
-        <section class="ourteam-section">
+      <section class="ourteam-section">
             <div class="container ourteam-container">
             <h2 class="style-h-two ourteam-title">Our Team</h2>
             <ul class="section-three-container">
-                <li class="card-box-style"><img src="./images/img-3.jpg" alt="Mark Guerrero" width="264" />
+                <li class="card-box-style">
+                    <img
+                    srcset="./images/img-3.jpg 1x, ./images/img-mark2.jpg 2px"
+                    src="./images/img-3.jpg" alt="Mark Guerrero" width="264" />
                     <div class="ourteam-info">
                     <h3 class="card-title" >Mark Guerrero</h3>
                     <p class="card-text">Product Designer</p>
@@ -136,7 +191,10 @@
                     </ul>
                 </div>
                 </li>
-                <li class="card-box-style"> <img src="./images/img-2.jpg" alt="Tom Ford" width="264"/>
+                <li class="card-box-style"> 
+                    <img
+                    srcset="./images/img-2.jpg 1px, ./images/img-tom2.jpg 2px"
+                    src="./images/img-2.jpg" alt="Tom Ford" width="264"/>
                     <div class="ourteam-info"> 
                     <h3 class="card-title">Tom Ford</h3>
                     <p class="card-text">Frontend Developer</p>
@@ -172,7 +230,10 @@
                     </ul>
                     </div>
                 </li>
-                <li class="card-box-style"><img src="./images/img-1.jpg" alt="Camila Garcia" width="264"/>
+                <li class="card-box-style">
+                    <img
+                    srcset="./images/img-1.jpg 1px, ./images/img-Camila2.jpg 2px"
+                    src="./images/img-1.jpg" alt="Camila Garcia" width="264"/>
                     <div class="ourteam-info"> 
                      <h3 class="card-title">Camila Garcia</h3>
                     <p class="card-text">Marketing</p>
@@ -208,7 +269,10 @@
                     </ul>
                     </div>
                 </li>
-                <li class="card-box-style"> <img src="./images/img.jpg" alt="Daniel Wilson" width="264"/> 
+                <li class="card-box-style">
+                     <img 
+                     srcset="./images/img.jpg 1px, ./images/img-daniel2.jpg 2px"
+                     src="./images/img.jpg" alt="Daniel Wilson" width="264"/> 
                     <div class="ourteam-info">
                     <h3 class="card-title">Daniel Wilson</h3>
                     <p class="card-text">UI Designer</p>
@@ -311,7 +375,7 @@
         </section>
 
 </main>
-<footer class="footer-style">
+<!-- <footer class="footer-style">
     <div class="container footer-container">
     <div class="aaa">
     <a href="./index.html" class="webstudio webstudio-footer">Web<span class="footer-studio">Studio</span></a>
@@ -367,8 +431,8 @@
     </form>
    </div>
 </div>
-</footer>
-<div class="backdrop is-open">
+</footer>  -->
+<div class="backdrop">
     <div class="modal">
         <button type="button" class="modal-close-bth">
             <svg class="style-close" width="8" height="8">
