@@ -39,13 +39,28 @@ letter-spacing: 0.02em ;
 }
 
 .title {
-    font-weight: 500;
+    /*font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    letter-spacing: 0.02em ;
+    letter-spacing: 0.02em ;*/
     margin-bottom: 8px;
-}                      
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}   
+.box-in-our-portfolio .title{
+    text-align: left;
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #2e2f42;
+letter-spacing: 0.02em ;
+}
+
 .card-box-style {
 background: #fff;
 border-radius: 0 0 4px 4px;
@@ -146,7 +161,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 text-decoration: none;
-margin-right: 76px;
+/*margin-right: 76px;*/
 }
 .webstudio .span-style{
     color: #2e2f42;
@@ -161,6 +176,8 @@ margin-right: 76px;
 .webstudio-footer{
     display: inline-block;
     margin-bottom: 16px;
+    margin-left: 86px;
+   
 }
 
 .navigation a{
@@ -205,9 +222,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .contacts .contacts-link{
-    letter-spacing: 0.02em ;   
+   /* letter-spacing: 0.02em ;   
 font-size: 16px;
-line-height: 1.5;
+line-height: 1.5;*/
 color: #434455;
 text-decoration: none;
 font-family: "Roboto", sans-serif;
@@ -320,8 +337,10 @@ text-decoration: none;
 .footer-style{
   
     background: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /*padding-top: 100px;
+    padding-bottom: 100px;*/
+    padding-top: 96px;
+    padding-bottom: 96px;
     
 }
 
@@ -340,6 +359,7 @@ color: #434455;
         letter-spacing: 0.02em;
         color: #fff;
         margin-bottom: 16px;
+        margin-left: 96px;
 
     }
     
@@ -514,35 +534,45 @@ margin-top: 0;
 }
 .aaa{
    
-    margin-right: 120px;
+   /* margin-right: 120px;*/
    
 
 }
+.aaa >p{
+    text-align: left;
+}
+
 .bbb{
-    margin-right: 80px;
+    /*margin-right: 80px;*/
 }
 
 .footer-form{
-    display: flex;
-    gap: 24px;
+   /* display: flex;
+    flex-direction: column;*/
+    /*gap: 24px;*/
+    
     
 }
 .footer-subscribe{
- margin-left: auto;
+ /*margin-left: auto;*/
+ align-items: center;
+ 
 }
 .footer-input{
 border: 1px solid #ffffff;
 border-radius: 4px;
-width: 264px;
+/*width: 264px;*/
+width: 288px;
 height: 40px;
 padding:8px 16px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: transparent;
-margin-right: 24px;
+/*margin-right: 24px;*/
 font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
 color: #ffffff;
+margin-bottom: 16px;
 
 }
 
@@ -573,6 +603,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
 color: #fff;
+margin-left:61px ;
 }
 
 .footer-icon{
@@ -582,7 +613,10 @@ margin-left: 16px;
 .footer-container{
 
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    gap: 72px;
+   /* align-items: baseline;*/
+    padding: 0 16px;
 }
 /*ДОРОБИТИ ФУТЕР*/
 
@@ -918,6 +952,10 @@ cursor: pointer;
         gap: 72px 24px;
         
     }
+    .title{
+        text-align: left;
+    }
+    
      .calc{
         padding: 0;
         width: calc((100% - 24px) / 2);
@@ -927,7 +965,7 @@ cursor: pointer;
         display: none; /* Приховати всі елементи з класом box-for-icons */
     } 
 
-    /* СЕкція Our Portfolio */
+    /* СЕкція Our Portfolio для TAB */
     .li-our-portfolio{
         width: calc((100% - 24px) / 2);
         height: 420px;
@@ -981,26 +1019,35 @@ cursor: pointer;
 }/* HEADER DO TAB*/
 .header-container{
     display: flex;
-    align-items: center;
-    padding: 0 15px;
+    align-items:center;
+    padding: 0 16px;
 }
 .webstudio-header{
-    margin-right: 76px;
+    margin-right: 120px;
+    padding: 0;
 }
 .flex-logo-and-menu .navigation{
     display: flex;
-    padding-left: 16px;
-    
+       
+}
+.flex-logo-and-menu{
+    flex-grow: 0;
 }
 .contacts{
     font-style: normal;
     display: flex;
     flex-direction: column;
     gap: 12px;
-    padding-right: 16px;
+    
     padding-bottom: 16px;
     padding-top: 16px;
     margin-left: 121px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.2;
+letter-spacing: 0.04em;
+color: #434455;
+   
 }
 .menu-open-bth{
     display: none;
@@ -1034,7 +1081,44 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
     height: 4px;
 }
+
+/*Footer до TAB*/
+
+.footer-container{
+    flex-wrap: wrap;
+ flex-direction: row;
+ 
+ padding-left: 108px;
+ padding-right: 164px;
 }
+.webstudio-footer{
+    margin-left: 0;
+}
+.footer-social-link{
+    margin-left: 0;
+}
+.aaa{
+    margin-right: 24px;
+    
+}
+.footer-input{
+    width: 264px;
+}
+.footer-button{
+    margin-left: 0;
+}
+
+.footer-form{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-subscribe{
+ 
+
+
+}
+
 
 
 @media screen and (min-width:1440px) {
@@ -1050,11 +1134,27 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         padding-bottom: 120px;
       }
       .section-two-container{
+        width: 1128px;
         gap:24px;
+        padding: 0px;
       }
+      .section-two-style .box-for-icons {
+        display: block; /* Приховати всі елементи з класом box-for-icons */
+    } 
     .calc{
          width: calc((100% - 72px) / 4);
      } 
+     .title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #2e2f42;
+        letter-spacing: 0.02em ;
+        margin-bottom: 8px;
+        text-align:left;
+    }
+
+    /* Секція Our Portfolio для desktop*/
      .our-portfolio{
          padding-top: 120px;
         padding-bottom: 120px;
@@ -1119,6 +1219,40 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
 
+/* Header desktop*/
+.header-container{
+    width: 1440px;
+    padding: 0 156px;
+}
+.webstudio-header{
+    margin-right: 76px;
+}
+
+.contacts{
+    font-style: normal;
+    display: flex; 
+    flex-direction: row;
+    gap: 40px;
+
+    padding-bottom: 16px;
+    padding-top: 16px;
+    margin-left: auto;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.flex-logo-and-menu{
+    flex-grow: 1;
+}
+
+
+
+
+
+/*FOOTER до Desktop*/
 
 }
 
