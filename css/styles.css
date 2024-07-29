@@ -19,7 +19,7 @@ p{
 img{
     display: block;
     max-width: 100%;
-    height: auto;
+    height:auto;
 }
 
 
@@ -109,25 +109,25 @@ margin-bottom: 72px;
     /* max-width: 1440px; */
     max-width: 320px;
     margin: 0 auto;
-    background-image: url(/images/Dark-bg-mobile.jpg);
+    background-image: url(./images/Dark-bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: 
     linear-gradient(to bottom,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),   
-    url(/images/Dark-bg-mobile.jpg);
+    url(./images/Dark-bg-mobile.jpg);
      }
 @media screen and (-webkit-min-device-pixel-ratio: 2 ),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
     .section-one-style{
-        background-image: url(/images/Dark-bg-mob2.jpg);
+        background-image: url(./images/Dark-bg-mob2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: 
     linear-gradient(to bottom,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),   
-    url(/images/Dark-bg-mob2.jpg);
+    url(./images/Dark-bg-mob2.jpg);
     }
 }
 .buttonstyle{
@@ -176,7 +176,9 @@ text-decoration: none;
 .webstudio-footer{
     display: inline-block;
     margin-bottom: 16px;
-    margin-left: 86px;
+    
+    
+    
    
 }
 
@@ -259,7 +261,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 24px;
     height: 24px;
     
-    border-color: #e7e9fc;
+    border-color:#e7e9fc;
  
     padding: 0;
     cursor: pointer;
@@ -274,7 +276,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-menu-list {
-    margin-bottom: 168px;
+    
 }
 .mob-menu-list li:not(:last-child) {
     margin-bottom:40px;
@@ -297,7 +299,7 @@ color: #404bbf;
 .current {
 }
 .mob-contacts {
-    margin-bottom: 40px;
+    margin-top: auto;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -323,7 +325,7 @@ text-decoration: none;
    justify-content: center;
    flex-direction: row;
    gap: 40px;
-   margin-top: auto;
+   margin-top: 48px;
 }
 
 .menu-open-bth{
@@ -359,7 +361,7 @@ color: #434455;
         letter-spacing: 0.02em;
         color: #fff;
         margin-bottom: 16px;
-        margin-left: 96px;
+        
 
     }
     
@@ -547,15 +549,17 @@ margin-top: 0;
 }
 
 .footer-form{
-   /* display: flex;
-    flex-direction: column;*/
+    display: flex;
+   flex-direction: column;
+   align-items: center;
     /*gap: 24px;*/
+    
     
     
 }
 .footer-subscribe{
  /*margin-left: auto;*/
- align-items: center;
+ 
  
 }
 .footer-input{
@@ -599,7 +603,7 @@ flex-direction: row;
 border: none;
     border-radius: 4px;
 padding: 8px 24px;
-min-width: 165px;
+width: 165px;
 height: 40px;
 cursor: pointer;
 background: #4d5ae5;
@@ -609,7 +613,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
 color: #fff;
-margin-left:61px ;
+
 }
 
 .footer-icon{
@@ -623,6 +627,9 @@ margin-left: 16px;
     gap: 72px;
    /* align-items: baseline;*/
     padding: 0 16px;
+    text-align: center;
+
+    
 }
 /*ДОРОБИТИ ФУТЕР*/
 
@@ -700,6 +707,9 @@ margin-left: auto;
  .cover-text-wrap{
     position: relative;
     overflow: hidden;
+    height: 280px;
+
+
 
  }
  .cover-text{
@@ -712,6 +722,7 @@ margin-left: auto;
     color: #f4f4fd;
     background: #4d5ae5;
     height: 100%;
+    /*padding: 40px 32px;*/
     padding: 40px 32px;
     
     transform: translateY(100%);
@@ -982,6 +993,9 @@ cursor: pointer;
         gap: 72px 24px;
        
     }
+    .cover-text-wrap{
+        height: 300px;
+    }
     /*ССЕКЦІЯ OUR TEAM*/
     .section-three-container{
         gap:64px 24px;
@@ -1002,25 +1016,25 @@ cursor: pointer;
     padding-bottom: 112px;
     height: 436px;
     max-width: 768px;
-    background-image: url(/images/Dark-bg-1.jpg);
+    background-image: url(./images/Dark-bg-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: 
     linear-gradient(to bottom,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),   
-    url(/images/Dark-bg-1.jpg);
+    url(./images/Dark-bg-1.jpg);
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2 ),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
     .section-one-style{
-        background-image: url(/images/Dark-bg-tab2.jpg);
+        background-image: url(./images/Dark-bg-tab2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: 
     linear-gradient(to bottom,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),   
-    url(/images/Dark-bg-tab2.jpg);
+    url(./images/Dark-bg-tab2.jpg);
     }
 }/* HEADER DO TAB*/
 .header-container{
@@ -1099,25 +1113,28 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
 .webstudio-footer{
-    margin-left: 0;
+    text-align: left;
 }
 .footer-social-link{
-    margin-left: 0;
+    text-align: left;
 }
 .aaa{
+    text-align: left;
     margin-right: 24px;
     margin-bottom: 72px;
     
 }
 .footer-input{
     width: 264px;
+    margin-bottom: 0;
 }
 .footer-button{
-    margin-left: 0;
+    
 }
 
 .footer-form{
     display: flex;
+    flex-direction: row;
     gap: 24px;
 }
 
@@ -1125,14 +1142,23 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 
 }
+
+/*МОдальне вікно до Tab*/
+
+.modal{
+    width: 408px;
+    min-height: 584px;
+}
+
+
 }
 
 
 
 @media screen and (min-width:1440px) {
     .container{
-        width: 1128px;
-        padding: 0 15px; 
+        width: 1440px;
+        padding: 0 156px; 
         margin: 0 auto;
         
         
@@ -1172,6 +1198,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 420px;
 }
 .our-portfolio-list{
+    width: 1128px;
      padding-right: 0; 
     padding-left: 0;
     gap: 48px 24px;
@@ -1205,25 +1232,25 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 188px 0 ;
     height: 600px;
     max-width: 1440px;
-    background-image: url(/images/header.jpg);
+    background-image: url(./images/header.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: 
     linear-gradient(to bottom,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),   
-    url(/images/header.jpg);
+    url(./images/header.jpg);
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2 ),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
     .section-one-style{
-        background-image: url(/images/people-office-desck2.jpg);
+        background-image: url(./images/people-office-desck2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: 
     linear-gradient(to bottom,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),   
-    url(/images/people-office-desck2.jpg);
+    url(./images/people-office-desck2.jpg);
     }
 }
 
@@ -1267,12 +1294,16 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .aaa{
     margin-right: 120px;
+    margin-bottom: 0;
 }
 .footer-container{
     flex-wrap: nowrap;
 }
 .bbb{
     margin-right: 80px;
+}
+.footer-input{
+    margin-bottom: 0;
 }
 }
 
